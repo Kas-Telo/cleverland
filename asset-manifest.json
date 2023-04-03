@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/cleverland/static/css/main.1b7a082a.css",
+    "main.js": "/cleverland/static/js/main.a4a58757.js",
+    "static/media/avatar-default.png": "/cleverland/static/media/avatar-default.e48892482c2e526f6840.png",
+    "static/media/logo.svg": "/cleverland/static/media/logo.fbf6e3983d6f1a73d0cfb83c64fecd5d.svg",
+    "static/media/sort-descending.svg": "/cleverland/static/media/sort-descending.19bdca19f4c010ece8b5c321dd7831d3.svg",
+    "static/media/sort-ascending.svg": "/cleverland/static/media/sort-ascending.8b17339e99cfee6b3bcaf862f5f9b860.svg",
+    "static/media/loader.svg": "/cleverland/static/media/loader.dd88a6979adb528a128a6c929889cc61.svg",
+    "static/media/inst.svg": "/cleverland/static/media/inst.e97ff03ade72072ea0cd1da6e55216d4.svg",
+    "static/media/tile.svg": "/cleverland/static/media/tile.bd8519fb26ea811b080efb890526294d.svg",
+    "static/media/vk.svg": "/cleverland/static/media/vk.c32e395e6797a054efb22a6a46213066.svg",
+    "static/media/burger-menu.svg": "/cleverland/static/media/burger-menu.93789a80e2678b045ed4a34e453dff9c.svg",
+    "static/media/search.svg": "/cleverland/static/media/search.f4f88c2cce052f0560e370356fa2dfa9.svg",
+    "static/media/default-star.svg": "/cleverland/static/media/default-star.1eb6b2570cd9e1dda8ae16050b4a2824.svg",
+    "static/media/eye-close.svg": "/cleverland/static/media/eye-close.739042d2f242a9399d8c65dc0280a722.svg",
+    "static/media/close.svg": "/cleverland/static/media/close.5bbb4df6b00f7612cb6f8405e1afe1fd.svg",
+    "index.html": "/cleverland/index.html",
+    "static/media/error.svg": "/cleverland/static/media/error.b6d1662305d895fedece34d1ff64e0fe.svg",
+    "static/media/linked.svg": "/cleverland/static/media/linked.065df8e7f993759186509a5d69816e07.svg",
+    "static/media/photo.svg": "/cleverland/static/media/photo.b767b2ae9dc55c1419549b8f7bd6de46.svg",
+    "static/media/eye-open.svg": "/cleverland/static/media/eye-open.6648ff5dec351ea5e1476a4e302df1af.svg",
+    "static/media/outline-star.svg": "/cleverland/static/media/outline-star.e981b7fc70977a1e6ef4dd3dda4ae136.svg",
+    "static/media/down.svg": "/cleverland/static/media/down.eb26d2a4b1d6ba460b3d6aa229aaaf9f.svg",
+    "static/media/up.svg": "/cleverland/static/media/up.e23f093aed9987263fe9f83cac5fe70b.svg",
+    "static/media/success.svg": "/cleverland/static/media/success.c86bdab9bcf777ad34beb9914205c5ae.svg",
+    "static/media/facebook.svg": "/cleverland/static/media/facebook.65bc4991c27ab542016b8ad583667068.svg",
+    "static/media/arrow-right.svg": "/cleverland/static/media/arrow-right.325b3fd8b963a84dc50b043fd01bcb5f.svg",
+    "static/media/arrow-left.svg": "/cleverland/static/media/arrow-left.b56d3d7f42f416394c72166466b2efda.svg",
+    "static/media/check-true.svg": "/cleverland/static/media/check-true.f8ad084261815f5a72395119b8099c37.svg",
+    "static/media/slash.svg": "/cleverland/static/media/slash.c2e0348da539c44106f31c69d9b0bc4d.svg",
+    "static/media/arrow_drop_down.svg": "/cleverland/static/media/arrow_drop_down.ff1fbb418a503b25ce55f5b5452187c6.svg",
+    "main.1b7a082a.css.map": "/cleverland/static/css/main.1b7a082a.css.map",
+    "main.a4a58757.js.map": "/cleverland/static/js/main.a4a58757.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1b7a082a.css",
+    "static/js/main.a4a58757.js"
+  ]
+}
