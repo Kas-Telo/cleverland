@@ -1,0 +1,12 @@
+.ratingBlock {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:16px;
+}
+.submitButton {
+  width:100%;
+}
+.textArea {
+  margin-bottom:20px;
+}

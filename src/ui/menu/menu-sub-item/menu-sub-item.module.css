@@ -1,0 +1,27 @@
+.arrow {
+  font-weight:400;
+  font-size:16px;
+  line-height:24px;
+  color:#363636;
+}
+.arrow:hover {
+  color:#ff5253;
+}
+.activeLink {
+  font-weight:700;
+  color:#f83600;
+}
+.bookCount {
+  font-weight:400;
+  font-size:14px;
+  line-height:24px;
+  margin-left:6px;
+  color:#a7a7a7;
+}
+.bookCountActive {
+  font-weight:400;
+  font-size:14px;
+  line-height:24px;
+  margin-left:6px;
+  color:#363636;
+}

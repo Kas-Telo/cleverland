@@ -1,0 +1,14 @@
+.form {
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  gap:32px;
+  width:100%;
+  height:100%;
+}
+.centerContentPosition {
+  align-items:center;
+}
+.endContentPosition {
+  align-items:flex-end;
+}

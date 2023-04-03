@@ -1,0 +1,41 @@
+.submitButton {
+  margin-bottom:16px;
+}
+.linkBlock {
+  width:100%;
+  display:flex;
+  flex-direction:row;
+  column-gap:15px;
+  row-gap:7px;
+  flex-wrap:wrap;
+}
+.fullErrorText {
+  color:#A7A7A7;
+  margin-left:10px;
+}
+.errorText {
+  color:inherit;
+}
+.markErrorText {
+  color:#F42C4F;
+}
+.infoButton {
+  max-width:410px;
+  width:100%;
+}
+.fullWidthContainer {
+  width:100%;
+}
+.titleRegistration {
+  padding-bottom:8px;
+}
+.linkDescription {
+  color:#727272;
+  min-width:166px;
+}
+.text {
+  color:#727272
+}
+.hintContainer {
+  padding-left:10px;
+}

@@ -1,0 +1,160 @@
+.container {
+  min-width:256px;
+  width:256px;
+  padding-top:16px;
+  text-transform:capitalize;
+  background:#FFFFFF;
+  box-shadow:0 2px 4px rgba(191, 196, 201, 0.2), 0 3px 4px rgba(191, 196, 201, 0.18), 0 1px 5px rgba(191, 196, 201, 0.24);
+  border-radius:8px;
+}
+.header {
+  height:40px;
+  padding:8px 16px;
+}
+.headerContentContainer {
+  width:100%;
+  height:100%;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+}
+.selectSubstrate {
+  position:fixed;
+  top:0;
+  left:0;
+  width:100vw;
+  height:100vh;
+}
+.selectWrapper {
+  width:150px;
+  position:relative;
+  background:transparent;
+}
+.selectWrapper {
+  cursor:pointer;
+}
+.select {
+  height:24px;
+  width:100%;
+  display:flex;
+  flex-direction:row;
+  justify-content:flex-start;
+  text-transform:capitalize;
+  font-weight:400;
+  font-size:16px;
+  line-height:24px;
+  color:#A7A7A7;
+}
+.select:hover {
+  cursor:pointer;
+}
+.arrowDropDown {
+  position:absolute;
+  right:0;
+  top:0;
+}
+.listContainer {
+  position:absolute;
+  display:none;
+  top:120%;
+  left:-5%;
+  width:160px;
+}
+.listContainerActive {
+  display:flex;
+  flex-direction:column;
+  background:#FFFFFF;
+  max-height:300px;
+  box-shadow:4px 4px 4px rgba(54, 54, 54, 0.05), -4px 4px 4px rgba(54, 54, 54, 0.05);
+  border-radius:0 0 10px 10px;
+  padding:7px;
+  overflow-y:scroll;
+  gap:5px
+}
+.listContainerActive:hover {
+  cursor:pointer;
+}
+.item {
+  height:24px;
+  width:100%;
+  background:transparent;
+  display:flex;
+  flex-direction:row;
+  justify-content:flex-start;
+  outline:none;
+  border:none;
+  appearance:none;
+  text-transform:capitalize;
+  font-weight:400;
+  font-size:16px;
+  line-height:24px;
+  color:#A7A7A7;
+}
+.item:hover {
+  color:#F83600;
+}
+.arrowsContainer {
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  align-items:center;
+  gap:12px;
+}
+.dateContainer {
+  padding:0 16px;
+  width:100%;
+  height:100%;
+  display:flex;
+  flex-direction:column;
+}
+.weekContainer {
+  display:flex;
+  flex-direction:row;
+}
+.dateWeek {
+  background:linear-gradient(231.58deg, #F83600 -53.35%, #F9D423 297.76%);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+  text-fill-color:transparent;
+}
+.daysContainer {
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+}
+.date {
+  width:32px;
+  height:32px;
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  align-items:center;
+  background:none;
+  border:none;
+  color:#A7A7A7;
+}
+.dateText{
+  color:#A7A7A7;
+}
+.currentDay {
+  color:#F83600;
+}
+.availableDay {
+  color:#363636;
+}
+.weekendDay {
+  border-radius:50%;
+  background:#FEEBEA;
+}
+.weekendDayText {
+  background-color:#FEEBEA;
+}
+.selectedDay {
+  border-radius:50%;
+  background:linear-gradient(231.58deg, #F83600 -53.35%, #F9D423 297.76%);
+}
+.selectedDayText {
+  color:#ffffff;
+  background:linear-gradient(231.58deg, rgb(248, 54, 0) -53.35%, rgb(249, 212, 35) 297.76%);
+}
+

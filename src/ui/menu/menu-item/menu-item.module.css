@@ -1,0 +1,40 @@
+.menuItemSelector {
+  max-width:255px;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  align-items:center;
+}
+.activeMenu {
+  color:#f83600;
+}
+.list {
+  padding-top:16px;
+  display:flex;
+  flex-direction:column;
+  row-gap:16px;
+  padding-left:24px;
+}
+.item {
+}
+.arrow {
+  font-weight:400;
+  font-size:16px;
+  line-height:24px;
+  color:#363636;
+}
+.arrow:hover {
+  color:#ff5253;
+}
+.activeLink {
+  font-weight:700;
+  color:#f83600;
+}
+.bookCount {
+  margin-left:6px;
+  color:#a7a7a7;
+}
+.bookCountActive {
+  margin-left:6px;
+  color:#363636;
+}

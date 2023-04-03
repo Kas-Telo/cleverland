@@ -1,0 +1,30 @@
+.container {
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  column-gap:24px;
+}
+.descriptionContainer {
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  column-gap:24px;
+}
+.typography {
+  color:#727272;
+}
+.avatar {
+  width:32px;
+  height:32px;
+  border-radius:50%;
+}
+
+@media (max-width:576px) {
+  .container {
+    column-gap:8px;
+  }
+  .descriptionContainer {
+    flex-direction:column;
+    row-gap:3px;
+  }
+}

@@ -1,0 +1,33 @@
+.container {
+  position:relative;
+  width:160px;
+  height:160px;
+  border-radius:50%;
+  overflow:hidden;
+}
+.imageLabel {
+  cursor:pointer;
+}
+.inputLabel {
+  position:absolute;
+  width:100%;
+  background:#363636;
+  top:115px;
+  height:28%;
+  opacity:0.7;
+  cursor:pointer;
+}
+.input {
+  height:0;
+}
+.icon {
+  position:absolute;
+  top:118px;
+  left:calc(50% - 16px);
+}
+.icon:hover {
+  cursor:pointer;
+}
+.input::file-selector-button {
+  display:none;
+}

@@ -1,0 +1,13 @@
+.textFieldContainer {
+  position:relative;
+  width:100%;
+}
+.absoluteHintContainer {
+  height:20px;
+  position:absolute;
+  top:100%;
+  left:10px;
+}
+.blockHintContainer {
+  margin-left:10px;
+}

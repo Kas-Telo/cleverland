@@ -1,0 +1,16 @@
+.container {
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  column-gap:30px;
+  row-gap:24px;
+  flex-wrap:wrap;
+}
+.name {
+  width:min-content
+}
+@media screen and (max-width:680px){
+  .container {
+    flex-direction:column;
+  }
+}

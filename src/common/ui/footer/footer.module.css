@@ -1,0 +1,35 @@
+.footer {
+  min-height:56px;
+  border-top:1px solid #bfc4c9;
+}
+.container {
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  margin:16px 0;
+}
+.copyright {
+  text-align:center;
+}
+.socialBlock {
+  height:24px;
+  display:flex;
+  flex-direction:row;
+  column-gap:24px;
+}
+
+@media (max-width:710px) {
+  .container {
+    flex-direction:column;
+    align-items:center;
+    row-gap:16px;
+    margin:16px 16px 8px;
+  }
+}
+
+@media (max-width:546px) {
+  .copyright {
+    padding-left:20px;
+    padding-right:20px;
+  }
+}

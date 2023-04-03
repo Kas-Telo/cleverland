@@ -1,0 +1,21 @@
+.linkContainer {
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+}
+.leftArrow {
+  margin-right:15px;
+}
+.rightArrow {
+  margin-left:15px;
+}
+.arrow {
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+}
+.text {
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+}

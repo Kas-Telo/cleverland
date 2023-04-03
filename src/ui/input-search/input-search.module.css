@@ -1,0 +1,49 @@
+.container {
+  min-height:32px;
+  width:350px;
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:space-between;
+  background:#ffffff;
+  box-shadow:0 2px 4px rgba(191, 196, 201, 0.2), 0 3px 4px rgba(191, 196, 201, 0.18),
+    0 1px 5px rgba(191, 196, 201, 0.24);
+  border-radius:59px;
+  padding:0 16px;
+  gap:8px;
+}
+.input {
+  flex-grow:1;
+  border:none;
+  outline:none;
+  caret-color:#f83600;
+  font-style:normal;
+  font-weight:400;
+  font-size:14px;
+  line-height:18px;
+  color:#000;
+}
+.inputDesktop {
+  height:22px;
+}
+.inputDesktop::placeholder {
+  font-weight:400;
+  font-size:14px;
+  line-height:18px;
+  color:#a7a7a7;
+}
+.inputMobile {
+  height:18px;
+}
+.inputMobile::placeholder {
+  font-weight:400;
+  font-size:12px;
+  line-height:18px;
+  color:#a7a7a7;
+}
+
+@media (max-width:576px) {
+  .input {
+    font-size:12px;
+  }
+}

@@ -1,0 +1,26 @@
+.menuItemSelector {
+  max-width:255px;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  align-items:center;
+}
+.activeMenu {
+  color:#f83600;
+}
+.list {
+  padding-top:16px;
+  display:flex;
+  flex-direction:column;
+  row-gap:16px;
+  padding-left:24px;
+}
+.listCollapsed {
+  display:none;
+}
+.hr {
+  max-width:255px;
+  height:1px;
+  border-bottom:1px #F83600 solid;
+  margin-top:8px;
+}

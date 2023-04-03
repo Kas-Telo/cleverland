@@ -1,0 +1,15 @@
+.button {
+  background:#F9F9FA;
+  border-radius:50%;
+}
+.button:active .icon{
+  fill:#F9D423;
+}
+.mediumSizeButton {
+  width:32px;
+  height:32px
+}
+.largeSizeButton {
+  width:48px;
+  height:48px
+}

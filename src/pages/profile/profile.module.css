@@ -1,0 +1,16 @@
+.profileContainer {
+  display:flex;
+  flex-direction:column;
+  gap:92px;
+  margin:47px 0 62px;
+}
+@media screen and (max-width:992px) {
+  .profileContainer {
+    gap:64px;
+  }
+}
+@media screen and (max-width:576px) {
+  .profileContainer {
+    gap:42px;
+  }
+}

@@ -1,0 +1,26 @@
+.swiper {
+  padding:5px 5px 0;
+  height:518px;
+}
+.swiper :global(.swiper-pagination) {
+  bottom:0;
+}
+.swiper :global(.swiper-pagination-bullet){
+  opacity:1;
+}
+.swiper :global(.swiper-pagination-bullet){
+  width:7px;
+  height:7px;
+  background:#bfc4c9;
+}
+.swiper :global(.swiper-pagination-bullet-active){
+  width:9px;
+  height:9px;
+  background:#363636;
+}
+.bookCard {
+  max-width:255px;
+  width:100%;
+  min-width:190px;
+}
+

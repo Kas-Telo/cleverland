@@ -1,0 +1,28 @@
+.large {
+  display:flex;
+  align-items:center;
+  font-style:normal;
+  font-weight:600;
+  font-size:16px;
+  line-height:150%;
+  letter-spacing:0.2px;
+  text-transform:uppercase;
+  color:#000;
+}
+.small {
+  display:flex;
+  align-items:center;
+  font-style:normal;
+  font-weight:600;
+  font-size:14px;
+  line-height:18px;
+  letter-spacing:0.2px;
+  text-transform:uppercase;
+  color:#000;
+}
+.mobileLarge {
+  line-height:20px;
+}
+.mobileSmall {
+  font-size:12px;
+}

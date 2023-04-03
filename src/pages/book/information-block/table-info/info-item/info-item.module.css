@@ -1,0 +1,17 @@
+.item {
+  display:flex;
+  flex-direction:row;
+}
+.title {
+  min-width:190px;
+  color:#a7a7a7;
+}
+.description {
+  color:#363636;
+}
+
+@media (max-width:992px) {
+  .title {
+    width:138px;
+  }
+}

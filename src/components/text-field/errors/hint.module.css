@@ -1,0 +1,12 @@
+.hintContainer {
+  width:100%;
+}
+.fullErrorText {
+  color:#A7A7A7;
+}
+.errorText {
+  color:inherit;
+}
+.markErrorText {
+  color:#F42C4F;
+}

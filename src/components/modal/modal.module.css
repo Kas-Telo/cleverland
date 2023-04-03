@@ -1,0 +1,103 @@
+.substrate {
+  position:fixed;
+  top:0;
+  left:0;
+  height:100vh;
+  width:100vw;
+  display:flex;
+  background:none;
+  justify-content:center;
+  align-items:center;
+  padding:0 16px;
+  z-index:5;
+}
+.substrateActive {
+  background:rgba(54, 54, 54, 0.3);
+  backdrop-filter:blur(10px);
+}
+.modalContainer {
+  position:relative;
+  background:#FFFFFF;
+  border-radius:16px;
+  max-width:600px;
+}
+.buttonClose{
+  position:absolute;
+  top:32px;
+  right:32px;
+}
+.header {
+  width:528px;
+  height:0;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  background:#F9F9FA;
+  border-radius:16px 16px 0 0;
+  padding:0 16px;
+  margin-bottom:48px;
+}
+.viewHeader {
+  height:64px;
+  margin-bottom:32px;
+}
+.container {
+  display:flex;
+  flex-direction:column;
+  gap:32px;
+  padding:0 56px 48px;
+  width:528px;
+}
+.positionContentStart {
+  align-items:flex-start;
+}
+.positionContentEnd {
+  align-items:flex-end;
+}
+.positionContentCenter {
+  align-items:center;
+  text-align:center;
+}
+.infoContainer {
+  align-items:center;
+  padding:0 48px 32px;
+  width:600px;
+  text-align:center;
+}
+@media screen and (max-width:768px){
+  .infoContainer {
+    width:100%;
+  }
+}
+@media screen and (max-width:576px){
+  .modalContainer {
+    width:350px;
+  }
+  .header {
+    width:350px;
+    margin-bottom:24px;
+  }
+  .container {
+    width:350px;
+    padding:0 16px 24px;
+  }
+  .infoContainer {
+    padding:42px 16px 32px;
+    gap:24px;
+  }
+  .buttonClose {
+    top:16px;
+    right:16px;
+  }
+}
+@media screen and (max-width:380px) {
+  .modalContainer {
+    width:100%;
+  }
+  .container {
+    width:100%;
+  }
+  .header {
+    width:100%;
+  }
+}

@@ -1,0 +1,41 @@
+.container {
+  width:100%;
+}
+.headerBlock {
+  margin-bottom:32px;
+}
+.headerTitle {
+  color:#363636;
+  margin-bottom:8px;
+}
+.headerDescription {
+  color:#A7A7A7;
+}
+.cardContainer {
+  position:relative;
+}
+.redMaskText {
+  color:#FFFFFF;
+}
+.emptyContentContainer {
+  color:#FFFFFF;
+  width:100%;
+  height:220px;
+  background:#6E76F1;
+  opacity:0.7;
+  backdrop-filter:blur(10px);
+  border-radius:10px;
+  padding:16px;
+}
+
+@media screen and (max-width:992px) {
+  .emptyContentContainer {
+    height:204px;
+  }
+}
+@media screen and (max-width:576px) {
+  .emptyContentContainer {
+    height:188px;
+    padding:10px;
+  }
+}

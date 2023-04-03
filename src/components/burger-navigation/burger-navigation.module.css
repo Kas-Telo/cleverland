@@ -1,0 +1,29 @@
+.container {
+  max-width:502px;
+  width:100%;
+  max-height:calc(100vh - 110px);
+  background:#f9f9fa;
+  box-shadow:0 2px 4px rgba(191, 196, 201, 0.2), 0 3px 4px rgba(191, 196, 201, 0.18),
+    0 1px 5px rgba(191, 196, 201, 0.24);
+  border-radius:10px;
+  overflow-y:scroll;
+}
+.navContainer {
+  padding:32px 0 52px 32px;
+}
+.profileContainer {
+  padding:32px 0 52px 32px;
+}
+.hr {
+  border:1px solid #bfc4c9;
+  width:100%;
+}
+
+@media (max-width:576px) {
+  .navContainer {
+    padding:32px 0 52px 16px;
+  }
+  .profileContainer {
+    padding:32px 0 52px 16px;
+  }
+}

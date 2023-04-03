@@ -1,0 +1,42 @@
+.container {
+  width:100%;
+  padding:24px 32px;
+  border:2px solid #363636;
+  border-radius:5px;
+}
+.contentContainer {
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  align-items:flex-start;
+  column-gap:24px;
+}
+.success {
+  border:2px solid #00ca71;
+  background:#ebf9f1;
+}
+.error {
+  border:2px solid #f42c4f;
+  background:#feebea;
+}
+.closeButton {
+  background:none;
+}
+.message {
+  width:100%;
+}
+
+@media screen and (max-width:992px) {
+  .container {
+    padding:24px 16px;
+  }
+}
+
+@media screen and (max-width:576px) {
+  .container {
+    padding:12px 16px;
+  }
+  .contentContainer {
+    column-gap:12px;
+  }
+}

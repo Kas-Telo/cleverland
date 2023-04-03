@@ -1,0 +1,13 @@
+.container {
+  width:100%;
+}
+.headerBlock {
+  margin-bottom:32px;
+}
+.headerTitle {
+  color:#363636;
+  margin-bottom:8px;
+}
+.headerDescription {
+  color:#A7A7A7;
+}
